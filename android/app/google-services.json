@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "905800378853",
+    "project_id": "loginfluttertutorial",
+    "storage_bucket": "loginfluttertutorial.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905800378853:android:a91ed7da0a0af1fd94670c",
+        "android_client_info": {
+          "package_name": "com.example.login_app_tutorial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU5bzi_-4dWfMd6h9xX71pFu5JSYQ32r0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
