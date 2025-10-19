@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:login_app_tutorial/src/features/authentication/screens/splash_screen/splash_screen.dart';
 import 'package:login_app_tutorial/src/utils/theme/theme.dart';
 
 void main() {
@@ -11,24 +13,11 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: const AppHome(),
+    return GetMaterialApp(
+      home: SplashScreen(),
       theme: VThemeApp.lightTheme,
       darkTheme: VThemeApp.darkTheme,
       themeMode: ThemeMode.system,
-    );
-  }
-}
-
-class AppHome extends StatelessWidget {
-  const AppHome({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
-      appBar: AppBar(title: Text("./appable"),),
-      body: Center(child: Text("Home page"),),
     );
   }
 }
